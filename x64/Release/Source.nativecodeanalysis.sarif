@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31332.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/morgan/source/repos/opengl/source.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "86401363ca32b0411071a3ef5de6bfd97f687ec028b5cdadc1c3825a2d1c8231"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opengllibs/glad/glad.h"
+          },
+          "hashes": {
+            "sha-256": "2e350c51025544e4f9233a6e0c9ed916856ac183ae833946d92bda2db0b6ae65"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opengllibs/khr/khrplatform.h"
+          },
+          "hashes": {
+            "sha-256": "7b1e01aaa7ad8f6fc34b5c7bdf79ebf5189bb09e2c4d2e79fc5d350623d11e83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opengllibs/glfw/glfw3.h"
+          },
+          "hashes": {
+            "sha-256": "1f6a70f1147817ef8f9642c704b94f882451a65da00d76ed7f7a303fa6fd4808"
+          }
+        }
+      ]
+    }
+  ]
+}
